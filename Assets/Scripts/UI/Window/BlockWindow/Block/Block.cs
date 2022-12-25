@@ -4,11 +4,11 @@ namespace BusinessSimulator
 {
     public class Block : MonoBehaviour
     {
-        private View _view;
+        public View View { get; private set; }
 
         public void SetView(View view)
         {
-            _view = view;
+            View = view;
         }
     }
 }

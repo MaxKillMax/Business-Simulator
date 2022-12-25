@@ -2,7 +2,7 @@
 
 namespace BusinessSimulator
 {
-    [CreateAssetMenu(fileName = "BlockData", menuName = "Block Data", order = 51)]
+    [CreateAssetMenu(fileName = nameof(BlockData), menuName = "Block Data", order = 51)]
     public class BlockData : ScriptableObject
     {
         [SerializeField] private View _prefab;

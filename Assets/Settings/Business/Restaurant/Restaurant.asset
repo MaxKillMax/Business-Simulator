@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9f3923e7543064191a11b6a8fa3569, type: 3}
+  m_Name: Restaurant
+  m_EditorClassIdentifier: 
+  _title: Restaurant
+  _delay: 10
+  _cost: 200
+  _income: 200
+  _improvementsData:
+  - {fileID: 11400000, guid: a6645bb1b58714946a1f71d0572734ab, type: 2}
+  - {fileID: 11400000, guid: e72082ad93e0a574c963316e116921be, type: 2}
+  _blockData: {fileID: 11400000, guid: 1673291f19ba5da4881cf56d9d185db9, type: 2}
